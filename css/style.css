@@ -1,0 +1,378 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/************************************
+ * header section css starting here
+ * *********************************/
+.header {
+	background: #F0FFF0;
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.header .main-menu .navbar-brand img{
+	width:200px;
+	height: 59px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header .main-menu .nav-link{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: 500;
+	padding-left: 25px;
+	
+}
+
+.header .main-menu .btn{
+	border-radius: 60px;
+	background: #21B573;
+	color: #FFFFFF;
+	padding: 5px 15px;
+	margin-left: 25px;
+	border:  #21B573 1px solid;
+	transition: 1s;
+}
+.header .main-menu .btn:hover, .header .main-menu .btn:focus{
+	background: #E5E5E5;
+	color:#21B573;
+	padding: 5px 15px;
+	font-weight:500;
+}
+.banner{
+	width: 100%;
+	padding-bottom: 100px;
+}
+.banner .col-md-6{
+	margin: 80px 0px 0px 0px;
+}
+.banner h4{
+	font-size: 16px;
+	line-height: 24px;
+	color: #FD511A;
+
+}
+.banner h1{
+	font-weight:700;
+	font-size: 48px;
+	line-height: 70px;
+	color: #000000;
+	margin-bottom: 30px;
+}
+.banner span{
+	color: #21B573;
+}
+.banner p{
+	font-size: 16px;
+	line-height: 36px;
+	color: #000000;
+	font-weight: 500;
+	margin-bottom: 30px;
+
+}
+.banner .btn{
+	border-radius: 60px;
+	background: #21B573;
+	color: #FFFFFF;
+	padding: 5px 15px;
+	border:  #21B573 1px solid;
+	transition: 1s;
+}
+.banner .btn:hover, .banner .btn:focus{
+	background: #E5E5E5;
+	color:#21B573;
+	font-weight:500;
+	padding: 5px 15px;
+}
+
+.banner img{
+	width:554px;
+	float: left;
+	margin-left: 90px;
+
+}
+/************************************
+ * header section css ending here
+ * *********************************/
+
+
+ /************************************
+ * feature section css starting here
+ * *********************************/
+ .feature .container{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ }
+  .feature .inner-feature{
+  	text-align: center;
+  	background: #F8FFFB;
+	border-radius: 10px;
+	padding: 50px 0px 20px 0px;
+	transition: 1s;
+  }
+  .feature .inner-feature:hover,   .feature .inner-feature:focus{
+  	background: #FFFFFF;
+		box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  }
+.feature img{
+	width: 65px;
+	height: 100px;
+	text-align: center;
+	padding-bottom: 25px;
+}
+ .feature .inner-feature h3{
+ 	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	padding-bottom: -15px;
+ }
+ .feature .inner-feature p{
+ 	 font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	padding-bottom: 25px;
+ }
+
+  /************************************
+ * feature section css ending here
+ * *********************************/
+
+
+ /********************************************
+ *  Online Courses section css starting here
+ * ******************************************/
+
+
+ .online-section h1{
+ 	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+	padding: 30px 0px 80px 0px;
+	text-align: center;
+} 
+.online-section .container{
+	width: 100%;
+	padding: 20px 10px 80px 10px;
+	text-align: center;
+
+}
+.online-section .inner-design{
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+	padding: 0px 0px 40px 0px;
+}
+.online-section .inner-design img{
+	width: 375px;
+	padding: 25px 0px;
+
+}
+.online-section .inner-design h3{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	text-align: left;
+	margin-left: 25px;
+}
+.online-section .inner-design p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	text-align: left;
+	margin-left: 25px;
+	padding-bottom: 15px;
+}
+.online-section .inner-design .button{
+	text-align: left;
+	margin-left: 25px;
+	padding-bottom: 35px;
+}
+.online-section .inner-design .btn{
+ 	border-radius: 60px;
+	background: #21B573;
+	color: #FFFFFF;
+	padding: 5px 15px;
+	border:  #21B573 1px solid;
+	transition: 1s;
+}
+.online-section .inner-design .btn:hover, .banner .btn:focus{
+	background: #E5E5E5;
+	color:#21B573;
+	font-weight:500;
+	padding: 5px 15px;
+}
+.online-section .inner-design .col-sm-6 i{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+
+}
+.online-section .inner-design .col-sm-6 .fa{
+	margin-left: 15px;
+}
+.online-section .inner-design .col-sm-6 span{
+	margin-left: 10px;
+}
+
+
+  /********************************************
+ *  Online Courses section css ending here
+ * ******************************************/
+
+ /********************************************
+ *  testimonial section css starting here
+ * ******************************************/
+.testimonial .container{
+	padding-bottom: 100px;
+}
+.testimonial h2{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #000000;
+	text-align:center;
+	padding: 10px 0px 80px 0px;
+}
+.testimonial .flex-shrink-0{
+	width: 120px;
+	height: 120px;
+}
+.testimonial .col-lg-8 p{
+	margin: 15px 0px 0px 40px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+}
+ /********************************************
+ *  testimonial section css  ending here
+ * ******************************************/
+ .footer .container{
+ 	width: 100%;
+ 	padding: 50px 0px 60px 0px;
+ 	background: #282531;
+ }
+  .footer .container .col-lg-5 p{
+  	color: #FFFFFF;
+  	font-size: 16px;
+		line-height: 30px;
+  	margin: 0px 70px;
+  	text-align: left;
+  }
+  .footer .container .col-lg-7{
+  	font-weight:500;
+		font-size: 15px;
+		line-height: 30px;
+		color: #FFFFFF;
+  }
+  .footer .col-sm-4 a{
+  	list-style: none;
+  		color: #FFFFFF;
+  		font-weight: 400;
+  }
+    .footer .col-sm-4 ul{
+    	padding-left: 0px;
+    }
+      .footer .col-sm-4 li{
+      	margin-bottom:5px;
+      }
+      .footer .container .copy{
+      	margin:20px 0px 0px 0px;
+      	padding:40px 0px 0px 0px; ;
+      }
+ /********************************************
+ *  testimonial section css starting here
+ * ******************************************/
+
+ /*
+  *most of the mobile phones
+	*screen resulation will be 320px to 480px
+
+ */
+
+ @media ( min-width: 320px ) and ( max-width: 480px ){
+ 	/*media query code start*/
+	.container{
+		width: 100%;
+		margin: 0px auto;
+	}
+	.banner img {
+    width: 290px;
+    float: left;
+    margin-left: 50px;
+}
+.online-section .container {
+    width: 100%;
+    padding: 10px 5px 50px 5px;
+    text-align: center;
+}
+.online-section .inner-design {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
+    border-radius: 18px;
+    padding: 0px 0px 40px 0px;
+}
+
+.online-section .inner-design img {
+    width: 300px;
+    padding: 5px 0px;
+}
+ .feature .container .row{
+ 	margin: 0px;
+ }
+.online-section .row{
+	 	margin: 0px;
+}
+.footer .container .row{
+	margin: 0px;
+}
+
+ 	/*media query code end*/
+
+ }
+ /*
+  *most of the mobile phones in landscape mode and low resulation tablet
+	*screen resulation will be 481px to  767px
+
+ */
+  @media ( min-width: 481px ) and ( max-width: 767px ){
+  /*media query code start*/
+
+  /*media query code end*/
+
+ }
+ /*
+  *most of the tablet,i-pad and notebooks
+	*screen resulation will be 768px to 1024px
+
+ */
+
+  @media ( min-width: 768px ) and ( max-width: 1024px ){
+  /*media query code start*/
+
+ 	/*media query code end*/
+
+ }
